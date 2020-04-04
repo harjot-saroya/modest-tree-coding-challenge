@@ -1,0 +1,23 @@
+{
+  "name": "fullstacktest",
+  "version": "1.0.0",
+  "description": "Welcome to the test, it is a mix of frontend and backend questions. Submission details at the end.",
+  "main": "app1.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules app1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "curl": "^0.1.4",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "node-localstorage": "^2.1.5",
+    "request": "^2.88.2"
+  }
+}

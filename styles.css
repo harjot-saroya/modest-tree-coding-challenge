@@ -1,0 +1,67 @@
+#body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  padding: 10%;
+  position: relative;
+}
+#text {
+  position: absolute;
+  bottom: 5%;
+  border: 4px;
+  border-style: outset;
+  border-color: white;
+  left: 3%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  background-color: blue;
+  padding: 2rem;
+}
+
+#text,
+li:hover {
+  cursor: pointer;
+}
+#content {
+  padding: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#content .joe {
+  background-image: url("img/joe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 8rem;
+}
+
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#content .jane {
+  background-image: url("img/jane.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 8rem;
+  margin-right: 0;
+}
