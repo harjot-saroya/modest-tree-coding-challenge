@@ -1,15 +1,12 @@
 var express = require("express");
 const db = require("./db.mjs");
-const request = require("request");
 var app = express();
 const cors = require("cors");
-var axios = require("axios");
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
-var LocalStorage = require("node-localstorage").LocalStorage,
-  localStorage = new LocalStorage("./scratch");
+
 var array = [];
 
 //console.log(db);
