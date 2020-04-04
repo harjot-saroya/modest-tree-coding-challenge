@@ -55,7 +55,6 @@ Use a tool such as Postman or curl to test your api. Only build a frontend if yo
 
 SUBMISSION
 ==========
-Zip your results and send to auhlman@modesttree.com and mwamboldt@modesttree.com
 Please only include the code you have written and any instructions for running it.
 That means exclude any node_modules, bin, obj or temp directories. Our mail system
 rejects sending exes or dlls directly or in zip files.
