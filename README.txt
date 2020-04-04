@@ -1,3 +1,9 @@
+Packages used:
+Express
+cors
+bodypaser
+curl (for testing)
+______________________________________________________________________________________________________________________________
 Welcome to the test, it is a mix of frontend and backend questions. Submission details at the end.
 
 Move the provided files around as much as needed. They only exist to support the questions.
